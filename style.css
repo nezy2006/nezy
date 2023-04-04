@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: auto;
+    background-image: linear-gradient(to right, rgba(255, 238, 238, 0),rgb(80, 134, 136));
+}
+
+.top{
+    background-color: rgb(198, 236, 238);
+    height: 70px;
+    
+}
+.menu{  
+    background-color: rgb(80, 134, 136);  
+      
+    left: 0;  
+    right: 0;  
+    top: 10px;  
+    height: 60px;  
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}  
+.menu * {  
+    display: inline;
+    align-items: center;
+    
+}
+.menu li {  
+    margin: 40px; 
+}8uu
+.menu li a {  
+    color: rgb(255, 255, 255);  
+    text-decoration: none;
+    font-weight: bold;  
+}
+.menu li a:hover{
+    color: rgb(193, 227, 233);
+    
+    
+}
+.container{
+    height: 500px;
+    width: 1350px;
+    background-color: whitesmoke;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    box-shadow: 1px 1px 7px 4px linear-gradient(to right, rgba(255, 238, 238, 0),rgb(80, 134, 136));
+    position: relative;
+    left: 110px;
+    top: 180px;
+    position: fixed;
+    border-radius: 20px;
+}
+.red{
+    background-color: purple;
+    height: 500px;
+    width: 100px;
+}
+button{
+    background-color: cadetblue;
+    height: 50px;
+    width: 110px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 1px 1px 7px 3px rgba(95, 158, 160, 0.499);
+}
+button:hover{
+    background-color: white;
+    color: cadetblue;
+    transition: 1s;
+}
+.about{
+    padding-bottom: 90px;
+    color: rgb(4, 4, 108);
+    position: relative;
+    left: 50px;
+    padding: 5px;
+    bottom: 60px;
+
+   
+    
+
+}
+.photo img{
+   padding-bottom: 50px;
+   border-radius: 5px;
+   height: 450px;
+   position: relative;
+   left: 30px;
+   width: 700px;
+   border-radius: 20px;
+   top: 10px;
+}
